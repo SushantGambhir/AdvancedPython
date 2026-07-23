@@ -1,7 +1,3 @@
-Alright, let’s strip this down to the **absolute fundamentals** — the building blocks of object-oriented programming (OOP).  
-
----
-
 ### 🏗️ Classes
 - A **class** is like a **blueprint** or **template**.  
 - It defines what an object should look like and what it can do.  
