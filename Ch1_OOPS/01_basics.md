@@ -72,7 +72,3 @@ Here, `drive()` is a method.
 - **Object** = Actual house built from that blueprint  
 - **Attributes** = Features of the house (color, size, number of rooms)  
 - **Methods** = Actions the house can perform (open door, turn on lights)
-
----
-
-Would you like me to also show you a **visual diagram** (like a simple sketch of how classes, objects, attributes, and methods connect), or keep it purely code-based?

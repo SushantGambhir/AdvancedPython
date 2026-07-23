@@ -35,7 +35,3 @@ print(my_car.color)  # Red
 Think of a constructor like the **setup crew when you move into a new house**:
 - The house (object) is built from the blueprint (class).  
 - The constructor is the team that moves in furniture, paints the walls, and sets things up so the house is ready to live in.  
-
----
-
-Would you like me to also show you how **constructors differ across languages** (like Python vs Java vs C++) so you can see the bigger picture, or keep it focused only on Python?
