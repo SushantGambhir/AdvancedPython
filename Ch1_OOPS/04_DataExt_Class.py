@@ -22,3 +22,6 @@ class DataExt:
 
 obj = DataExt("Ch1_OOPS\Files\orders.json")
 obj.fetch_json()
+
+obj2 = DataExt('Ch1_OOPS\Files\orders.csv')
+obj2.fetch_text(',')
