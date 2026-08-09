@@ -27,3 +27,6 @@ with ThreadPoolExecutor(max_workers=len(urls_list)) as executor:
     results.extend(futures)
 
 print(results)
+
+# In the above example the function is only expecting one argument (url: string). 
+# If multiple arguments are needed then use dictionary and pass key
