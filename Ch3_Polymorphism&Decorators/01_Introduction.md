@@ -1,12 +1,10 @@
-**Polymorphism in Python means the same function or method name can work differently depending on the object it’s applied to—making code flexible, reusable, and easier to maintain.** It allows different classes to define their own behavior for a shared interface, so you can write one piece of code that adapts to many forms.  [Codecademy](https://www.codecademy.com/article/understanding-polymorphism-in-python)  [learn.programmingline.com](https://learn.programmingline.com/learn/python/python-polymorphism)  [Sanfoundry](https://www.sanfoundry.com/polymorphism-in-python/)  
-
+**Polymorphism in Python means the same function or method name can work differently depending on the object it’s applied to—making code flexible, reusable, and easier to maintain.** It allows different classes to define their own behavior for a shared interface, so you can write one piece of code that adapts to many forms.  
 ---
 
 ## 🔑 What is Polymorphism?
 - **Definition:** From Greek “poly” (many) + “morphos” (forms). In OOP, it means *many forms of behavior under one interface*.  
 - **Core Idea:** You don’t need to know the exact type of an object; you just call the method, and Python dynamically decides which implementation to run.  
-- **Benefit:** Avoids long `if-else` chains, makes code modular, and supports extensibility.  [Codecademy](https://www.codecademy.com/article/understanding-polymorphism-in-python)  [learn.programmingline.com](https://learn.programmingline.com/learn/python/python-polymorphism)  
-
+- **Benefit:** Avoids long `if-else` chains, makes code modular, and supports extensibility.  
 ---
 
 ## 🧩 Types of Polymorphism in Python
@@ -16,8 +14,6 @@
 | **Duck Typing** | If an object has the required method, it can be used, regardless of its class. | `fly_test(duck)` vs `fly_test(airplane)` both call `.fly()` successfully. |
 | **Method Overriding** | A subclass redefines a method from its parent class. | `Cat.speak()` overrides `Animal.speak()`. |
 | **Operator Overloading** | Special methods (`__add__`, `__len__`, etc.) redefine operators for custom classes. | `Vector1 + Vector2` calls `__add__`. |
-
-  [Codecademy](https://www.codecademy.com/article/understanding-polymorphism-in-python)  [learn.programmingline.com](https://learn.programmingline.com/learn/python/python-polymorphism)  [Sanfoundry](https://www.sanfoundry.com/polymorphism-in-python/)  
 
 ---
 
@@ -73,8 +69,7 @@ print(result.x, result.y)  # 6 8
 - **Flexibility:** Functions can handle multiple object types seamlessly.  
 - **Code Reuse:** One interface, many implementations.  
 - **Maintainability:** Easier to extend without rewriting existing logic.  
-- **Foundation for Polymorphism + Inheritance:** Enables polymorphic behavior across class hierarchies.  [learn.programmingline.com](https://learn.programmingline.com/learn/python/python-polymorphism)  
-
+- **Foundation for Polymorphism + Inheritance:** Enables polymorphic behavior across class hierarchies.  
 ---
 
 ## ⚠️ Risks & Trade-offs
