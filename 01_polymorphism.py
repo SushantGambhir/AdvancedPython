@@ -12,3 +12,5 @@ class blob_fetch:
 
 obj = database_fetch()
 obj.fetch()
+
+# Here we have a function with same name (fetch()) with different functionalities and class names
