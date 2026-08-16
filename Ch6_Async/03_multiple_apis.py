@@ -1,4 +1,3 @@
-import time
 import asyncio
 
 async def api_call(url: str, delay: int):
