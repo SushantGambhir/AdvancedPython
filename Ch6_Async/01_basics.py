@@ -1,10 +1,11 @@
 import asyncio
 import time
 
-# coroutine function
+# Coroutine function
 async def main():
-    print('Hello')
-    asyncio.sleep(10)
-    print('World')
+    print("Hello") # This will print immediately
+    await asyncio.sleep(3) # The thread is idle here
+    print("World") # This will be executed right after the thread is idle
 
+# Run the main coroutine
 asyncio.run(main())
