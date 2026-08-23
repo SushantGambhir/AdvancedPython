@@ -10,4 +10,6 @@ def test_weather_check():
 
 if __name__ == "__main__":
     test_weather_check()
-    
+    print('All good!')
+
+# To use the pytest, in terminal use the command 'pytest <file_name>'    
